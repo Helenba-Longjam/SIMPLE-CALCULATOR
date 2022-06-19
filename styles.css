@@ -1,0 +1,75 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(43, 160, 189, 0.3);
+}
+#main{
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 420px;
+    height: 440px;
+    margin-top: 8%;
+    display: grid;
+    gap: 12px;
+    padding: 5px 30px;
+    box-shadow: 5px 10px 8px 10px #888888;
+    background-color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+button{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+#row-1{
+    text-align: center;
+}
+#heading{
+    font-size: 1.6rem;
+}
+#result{
+    width: 410px;
+    padding: 12px 0;
+    text-indent: 15px;
+    direction: ltr;
+    color: white;
+    background-color: black;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    font-family: 'Nuosu SIL', serif;
+}
+#row-6{
+    margin-bottom: 15px;
+}
+#c,#ac{
+    background-color: rgb(221, 70, 70);
+    color: white;
+}
+#c:active,#ac:active{
+    background-color: rgb(183, 26, 26);
+}
+.num{
+    background-color: #a0a0a0;
+    color: white;
+}
+.num:active{
+    background-color: #545252;
+    color: white;
+}
+
+.assign{
+    background-color: rgb(121, 193, 121);
+}
+.assign:active{
+    background-color: rgb(44, 135, 44);
+}
+.operator{
+    background-color: rgb(133, 186, 203);
+}
+.operator:active{
+    background-color: rgb(55, 118, 139);
+}
+button:hover{
+    border: 15px black;
+}
